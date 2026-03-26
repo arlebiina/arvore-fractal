@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+canvas {
+    border: 5px solid blue;
+    background-color: white;
+    margin-top: 10px;
+    cursor: move; /* Indica que o canvas é arrastável */
+}
+
+label, input {
+    display: inline-block;
+    margin: 5px;
+}
+
+.config {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 700px;
+    margin: 0 auto 15px auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.box01 {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.box02 {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
